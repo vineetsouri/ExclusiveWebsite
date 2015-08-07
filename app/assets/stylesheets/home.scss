@@ -1,9 +1,14 @@
-#land{
+#land {
   background-color: $primary-color;
   color: $dark-primary-color;
   height: 100vh;
   width: 100%;
   text-align: center;
+  
+  #waiting-timer {
+    display: inline-block;
+    width: auto;
+  }
 
   form {
     input.string {
