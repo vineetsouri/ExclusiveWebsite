@@ -11,7 +11,7 @@ class TicketsController < ApplicationController
 
   def show
     @ticket = Ticket.find(params[:id])
-    @current_ticket = current_ticket.ticket
+    
     @seconds_left = CurrentTicket.seconds_left
   end
 
