@@ -25,6 +25,7 @@ group :development, :test do
 
 
   gem 'spring'
+  gem 'whenever', :require => false
 end
 
 group :production do
@@ -40,4 +41,3 @@ gem 'annotate'
 gem 'flipclockjs-rails'
 gem 'cloudinary'
 gem 'random_password_generator'
-gem 'whenever', :require => false
