@@ -40,3 +40,4 @@ gem 'annotate'
 gem 'flipclockjs-rails'
 gem 'cloudinary'
 gem 'random_password_generator'
+gem 'whenever', :require => false
